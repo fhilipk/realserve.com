@@ -1,0 +1,98 @@
+/*********************************************************************************/
+/* colors */
+/*********************************************************************************/
+
+/*$architect-green: #69BD08;*/
+
+
+
+/*********************************************************************************/
+/* Standard */
+/*********************************************************************************/
+
+a {
+	color: #0878BD;
+}
+
+ul {
+	list-style: none;
+	padding-left: 10px;
+	color: #fff;
+}
+
+/*********************************************************************************/
+/* Header */
+/*********************************************************************************/
+
+.logo {
+
+}
+
+.navbar-inverse {
+	background-color: #FFF;
+	border-color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #000;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #2A6496;
+}
+
+.navbar-inverse .navbar-nav > li > a:visited {
+	color: #2A6496;
+}
+
+/*.gradient-line {
+	height: 2px;
+	background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#ED3135), to(#0878BD));
+	background-image: -webkit-linear-gradient(left, #ED3135, #0878BD);
+	background-image:-moz-linear-gradient(left, #ED3135, #0878BD);
+	background-image: -o-linear-gradient(left, #ED3135, #0878BD);
+}*/
+
+.navbar-inverse {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#achitecture-wrapper {
+	background: url('../img/architecture.jpg') no-repeat scroll center center / cover transparent;
+	margin-top: 0px;
+	padding-top: 120px;
+	text-align: center;
+	min-height: 700px;
+	width: 100%;
+}
+
+.zoomOverlay a:hover {
+	background-color: #69BD08;
+}
+
+
+/*********************************************************************************/
+/* WW */
+/*********************************************************************************/
+
+#ww {
+	background-color: #fff;
+	padding-top: 45px;
+}
+
+.architect-green {
+	color: #69BD08;
+}
+/*********************************************************************************/
+/* Testimionials */
+/*********************************************************************************/
+
+
+/*********************************************************************************/
+/* Footer */
+/*********************************************************************************/
+
+#footer h4 {
+	padding-bottom: 0;
+}
