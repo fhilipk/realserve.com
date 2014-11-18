@@ -3,6 +3,9 @@
 /*********************************************************************************/
 
 /*$architect-green: #69BD08;*/
+/*$realestate-red: #BD080F;*/
+/*$owner-pink: #BD0869;*/
+/*$corporate-blue: #0869BD;*/
 
 
 
@@ -20,6 +23,11 @@ ul {
 	color: #fff;
 }
 
+#home-hero {
+	margin-top: 130px;
+}
+
+
 /*********************************************************************************/
 /* Header */
 /*********************************************************************************/
@@ -29,8 +37,10 @@ ul {
 }
 
 .navbar-inverse {
-	background-color: #FFF;
+	background-color: #A3B4BF;
 	border-color: #fff;
+	position: fixed;
+	width: 100%;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -78,12 +88,36 @@ ul {
 
 #ww {
 	background-color: #fff;
-	padding-top: 45px;
+	padding-top: 175px;
 }
 
 .architect-green {
 	color: #69BD08;
 }
+
+/*********************************************************************************/
+/* Links */
+/*********************************************************************************/
+
+.graybox {
+	min-height: 200px;
+	background-color: #f2F2F2;
+	border-left: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+}
+
+.graybox > a {
+	color: #2A6496;
+}
+
+.graybox > a:hover {
+	color: #0878BD;
+}
+
+.graybox > a:visited {
+	color: #A3B4BF;
+}
+
 /*********************************************************************************/
 /* Testimionials */
 /*********************************************************************************/
@@ -95,4 +129,30 @@ ul {
 
 #footer h4 {
 	padding-bottom: 0;
+}
+
+/*********************************************************************************/
+/* Media */
+/*********************************************************************************/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+		#nav-phone {
+			display:none;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+		#nav-phone {
+			margin-top: -10px;
+			display: inline;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	#nav-phone {
+		margin-top: -65px;
+	}
 }
