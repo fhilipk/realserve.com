@@ -37,8 +37,8 @@ ul {
 }
 
 .navbar-inverse {
-	background-color: #A3B4BF;
-	border-color: #fff;
+	background-color: rgba(163, 180, 191, 0.7);
+	border: none;
 	position: fixed;
 	width: 100%;
 }
@@ -121,7 +121,13 @@ ul {
 /*********************************************************************************/
 /* Testimionials */
 /*********************************************************************************/
+/*.carousel-indicators {
+	background-color: black;
+}*/
 
+/*.carousel-indicators .active{
+	background-color: black;
+}*/
 
 /*********************************************************************************/
 /* Footer */
@@ -139,6 +145,10 @@ ul {
 @media (min-width: 768px) { 
 		#nav-phone {
 			display:none;
+	}
+
+	.carousel-indicators {
+		/*bottom: -5px;*/
 	}
 }
 
