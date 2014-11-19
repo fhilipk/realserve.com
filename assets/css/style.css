@@ -33,7 +33,6 @@ ul {
 /*********************************************************************************/
 
 .logo {
-
 }
 
 .navbar-inverse {
@@ -41,6 +40,14 @@ ul {
 	border: none;
 	position: fixed;
 	width: 100%;
+}
+
+#nav-phone {
+	padding-bottom: 20px;
+}
+
+.navbar-right {
+	padding-left: 46px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -100,10 +107,12 @@ ul {
 /*********************************************************************************/
 
 .graybox {
-	min-height: 200px;
+	min-height: 100px;
 	background-color: #f2F2F2;
 	border-left: 2px solid #FFF;
 	border-right: 2px solid #FFF;
+	padding-top: 30px;
+	padding-bottom: 40px;
 }
 
 .graybox > a {
@@ -157,12 +166,12 @@ ul {
 		#nav-phone {
 			margin-top: -10px;
 			display: inline;
+			text-align: center;	
 	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 	#nav-phone {
-		margin-top: -65px;
 	}
 }
