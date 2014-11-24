@@ -106,16 +106,6 @@ ul {
   text-align: center;
   min-height: 800px;
   width: 100%;
-  
-
-	top: 0px;
-	bottom: 0px;
-	margin: auto;
-	height: auto;
-	min-width: 1920px;
-	left: -1920px;
-	right: -1920px;
-	width: 100%;
 }
 
 .title h1, h2 {
