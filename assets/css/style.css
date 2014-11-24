@@ -23,10 +23,6 @@ ul {
 	color: #fff;
 }
 
-#home-hero {
-	margin-top: 130px;
-}
-
 
 /*********************************************************************************/
 /* Header */
@@ -36,7 +32,7 @@ ul {
 }
 
 .navbar-inverse {
-	background-color: rgba(163, 180, 191, 0.7);
+	background-color: rgba(207, 207, 207, 0.7);
 	border: none;
 	position: fixed;
 	width: 100%;
@@ -75,6 +71,11 @@ ul {
   padding-top: 20px;
 }
 
+.contact {
+	margin-right: 50px;
+	margin-top: -6px;
+}
+
 #achitecture-wrapper {
 	background: url('http://gispoint.de/uploads/pics/FARO_Focus3D_X130_2.jpg') no-repeat scroll center center / cover transparent;
 	margin-top: 0px;
@@ -88,6 +89,44 @@ ul {
 	background-color: #69BD08;
 }
 
+/*********************************************************************************/
+/* Home Hero */
+/*********************************************************************************/
+
+#hero-home {
+	background-color: #85706E;
+	width: 100%;
+	height: 800px;
+}
+
+#hero-home-image {
+	background: url('http://media-cache-ec0.pinimg.com/originals/4e/11/27/4e1127d072e9c49802d172dc926050b4.jpg') no-repeat center center fixed;
+  margin-top: 0px;
+  padding-top: 10em;
+  text-align: center;
+  min-height: 800px;
+  width: 100%;
+  
+
+	top: 0px;
+	bottom: 0px;
+	margin: auto;
+	height: auto;
+	min-width: 1920px;
+	left: -1920px;
+	right: -1920px;
+	width: 100%;
+}
+
+.title h1, h2 {
+	color: #fff;
+	font-family: 'Abel', sans-serif;
+	font-size: 55px;
+}
+
+.title h2 {
+	font-size: 38px;
+}
 
 /*********************************************************************************/
 /* WW */
